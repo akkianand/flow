@@ -6,7 +6,6 @@ pub contract BookContract {
         pub let writer : String 
         pub let publishYear : Int 
 
-
         init( _name : String , _writer : String , _publishYear : Int ){
             self.name  = _name ; 
             self.writer = _writer ; 
